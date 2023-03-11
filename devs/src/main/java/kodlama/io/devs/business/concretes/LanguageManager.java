@@ -8,9 +8,11 @@ import kodlama.io.devs.business.abstracts.LanguageService;
 import kodlama.io.devs.dataAccess.abstracts.LanguageRepository;
 import kodlama.io.devs.entities.concretes.Language;
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 @Service
 @AllArgsConstructor
+@NoArgsConstructor
 public class LanguageManager implements LanguageService {
 
 	private Language lang = new Language();
